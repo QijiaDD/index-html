@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+	<title>Introduction</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	from flask import *
+from flask_ngrok import run_with_ngrok
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+  return '<p>Hello, World!</p>'
+
+run_with_ngrok(app)
+app.run()
+</head>
+
+<body>
+	<h1 style="background-color:DarkSeaGreen;">Introduction</h1>
+	<img style="border-radius: 50%" src="image/IMG_0185.jpg" width="200" height="200" alt="picture of Qijia Wang" class="center">
+	<h2> Qijia Wang 2121162</h2>
+	<div class="ex"><h3>About:</h3></div> 
+	<p> PG student, EBM rookie, Striving for knowledge, Struggling to learn to program</p> 
+	<div class="ex"><h3> Hobbies:</h3></div>
+	<p> Movies, Games, Travels, Maybe get interested in programming</p>
+	<div class="ex"><h3> Likes: </h3></div>
+	<p> Agatha Christie's Speculative Fiction, Uzi, Le Silence de la Mer </p>
+	<div class="ex"><h3> Friends:</h3></div>
+    <p><a href="https://youkangchen.github.io/desktop-tutorial/">Youkang Chen</a></p>
+    <p><a href="https://yingfanxiang.github.io/DDP-IMA/">Yingfan Xiang</a></p>
+    <p><a href="https://yujianshao.github.io/DDP-excersice-/">Yujian Shao</a></p>
+    <p><a href="https://zhuwenbin333.github.io/ima-/">Wenbin Zhu</a></p>
+	<footer>
+  <h3>Contect Me</h3 >
+  <p>Contact information: <a href="mailto:u2121162@live.warwick.ac.uk ">u2121162@live.warwick.ac.uk</a ></p >
+</footer>
+</body>
+</html>

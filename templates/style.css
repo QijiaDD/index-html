@@ -1,26 +1,19 @@
-.ex {
-	width: 1400px;
+ul li {
+	width: 100px;
 	height: 50px;
+    line-height: 50px;
+    float: right;
+    border: 1px solid skyblue;
+    text-align: center;
+}
+h2, h3 {
+        font-family: 'Ubuntu', sans-serif;
+
+}
+.ex {
+    width: 1400px;
+    height: 50px;
     padding: 1px;
     border: 5px dotted skyblue;
     margin: 0px;
-}
-
-h2, h3 {
-		font-family: 'Ubuntu', sans-serif;
-
-}
-
-p {
-	color: CadetBlue;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-}
-
-body {
-  background-color: #FEFDE4  ;
 }
